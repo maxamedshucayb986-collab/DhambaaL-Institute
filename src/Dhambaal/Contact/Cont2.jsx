@@ -4,11 +4,55 @@ import { motion } from "framer-motion";
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaGlobe } from "react-icons/fa";
 
 export default function Hero2() {
+  // Qeex lambarka WhatsApp ee qaab caalami ah: countrycode + rest (ilaali inaysan jirin + ama spaces)
+  const whatsappNumber = "252619444614"; // <-- hubi oo bedel haddii loo baahdo
+  const whatsappWeb = `https://wa.me/${whatsappNumber}`;
+  const whatsappApp = `whatsapp://send?phone=${whatsappNumber}`;
+
   const info = [
-    { icon: <FaMapMarkerAlt />, label: "Address", value: "Taleh, Hodan, Mogadishu, Somalia" },
-    { icon: <FaPhone />, label: "Mobile", value: "+252 61 9444614" },
-    { icon: <FaEnvelope />, label: "Email", value: "dhambaalinstitute@gmail.com" },
-    { icon: <FaGlobe />, label: "Website", value: "http://www.dhambaalacademy.so/" },
+    {
+      icon: <FaMapMarkerAlt />,
+      label: "Address",
+      // Link to Google Maps (waxaad bedeli kartaa query-ga haddii aad rabto pin sax ah)
+      value: "Taleh, Hodan, Mogadishu, Somalia",
+      href: "https://www.google.com/maps/search/?api=1&query=Taleh+Hodan+Mogadishu+Somalia",
+      isExternal: true,
+    },
+    {
+      icon: <FaPhone />,
+      label: "Mobile",
+      value: "+252 61 9444614",
+      // Waxaan si gaar ah u maareyneynaa click si marka la dhufto uu isku dayo app-ka WhatsApp, kadibna fallback u yahay wa.me
+      href: whatsappWeb,
+      onClick: (e) => {
+        // isku day deep link-ka ka hor fallback
+        // Haddii aad rabto in link-gu had iyo jeer u furo new tab, ka saar preventDefault
+        e.preventDefault();
+        // Isku day in browser-ku furo protocol handler (whatsapp://). Haddii uusan jirin, fallback ku furo wa.me
+        const timeout = setTimeout(() => {
+          window.open(whatsappWeb, "_blank", "noopener,noreferrer");
+        }, 500);
+
+        // isku day furitaanka WhatsApp app (ku shaqeeya mobile). Browser-ka wuxuu ka hortagi karaa; timeout ayaa sameynaya fallback.
+        window.location.href = whatsappApp;
+
+        // Nadiifi timeout haddii page-ku beddelo si dhaqso ah
+        setTimeout(() => clearTimeout(timeout), 1000);
+      },
+    },
+    {
+      icon: <FaEnvelope />,
+      label: "Email",
+      value: "dhambaalinstitute@gmail.com",
+      href: "mailto:dhambaalinstitute@gmail.com",
+    },
+    {
+      icon: <FaGlobe />,
+      label: "Website",
+      value: "dhambaalacademy.so",
+      href: "http://www.dhambaalacademy.so/",
+      isExternal: true,
+    },
   ];
 
   return (
@@ -34,9 +78,26 @@ export default function Hero2() {
               className="flex items-center gap-4 bg-white text-yellow-400 bg-opacity-10 p-5 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2"
             >
               <div className="text-yellow-400 text-2xl">{item.icon}</div>
+
+              {/* Haddii item.href jiro, isticmaal <a> si loo furo link; haddii kale kaliya soo bandhig */}
               <div className="text-left">
                 <p className="font-semibold">{item.label}</p>
-                <p className="text-black">{item.value}</p>
+
+                {item.href ? (
+                  <a
+                    href={item.href}
+                    onClick={item.onClick}
+                    // Haddii isExternal ama waa wa.me, furo in new tab; deep-link click handler wuxuu preventDefault, markaas onClick ayaa maareyn doona
+                    target={item.isExternal ? "_blank" : undefined}
+                    rel={item.isExternal ? "noopener noreferrer" : undefined}
+                    className="text-black hover:underline inline-block"
+                    aria-label={`${item.label} link`}
+                  >
+                    {item.value}
+                  </a>
+                ) : (
+                  <p className="text-black">{item.value}</p>
+                )}
               </div>
             </motion.div>
           ))}
