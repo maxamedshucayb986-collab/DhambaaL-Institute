@@ -31,9 +31,9 @@ export default function AboutHero3() {
   ];
 
   return (
-    <section className="py-20 bg-blue-100 text-center">
+    <section className="py-20 bg-gradient-to-r from-blue-900 via-blue-700 to-blue-900 text-center">
       <motion.h2
-        className="text-3xl md:text-4xl font-bold mb-12 text-blue-900"
+        className="text-3xl md:text-4xl font-bold mb-12 text-yellow-400"
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}

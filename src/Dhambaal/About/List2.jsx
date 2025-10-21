@@ -7,13 +7,13 @@ export default function AboutHero2() {
   const sections = [
     {
       id: 1,
-      icon: <FaEye className="text-blue-900 text-4xl mb-4" />,
+      icon: <FaEye className="text-yellow-400 text-4xl mb-4" />,
       title: "Aragtida (Vision)",
       desc: "Inuu Dhambaal Institute noqdo xarun hormuud ah oo bixisa tababaro tayo sare leh, kaas oo ardayda ka caawiya inay noqdaan xirfadlayaal iyo hal-abuur cusub oo bulshada horumarisa.",
     },
     {
       id: 2,
-      icon: <FaBullseye className="text-blue-900 text-4xl mb-4" />,
+      icon: <FaBullseye className="text-yellow-400 text-4xl mb-4" />,
       title: "Himilada (Mission)",
       desc: "Inaan siino ardayda fursado waxbarasho oo casri ah, xirfado shaqo oo la jaanqaadaya suuqa, iyo hal-abuurnimo ay ku kobciyaan mustaqbalkooda iyo bulshada.",
     },

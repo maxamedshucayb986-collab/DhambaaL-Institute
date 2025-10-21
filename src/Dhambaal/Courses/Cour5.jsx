@@ -73,7 +73,7 @@ export default function CoursesHero5() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 100 }}
             transition={{ duration: 0.5 }}
-            className="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 px-8 py-4 rounded-full shadow-2xl font-semibold text-lg"
+            className="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 px-8 py-4 rounded-xs shadow-2xl font-semibold text-lg"
           >
             Mahadsanid! Email-kaaga waa la diiwaangeliyay ✅
           </motion.div>
