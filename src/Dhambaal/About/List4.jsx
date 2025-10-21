@@ -14,13 +14,13 @@ export default function AboutHero4() {
     {
       id: 2,
       name: "Farxaan Maxamuud Cali (Shabellka)",
-      img: "",
+      img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-1/527344702_2390070461387833_5722004722974373808_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=B_uE_xIWzxAQ7kNvwHf7b8m&_nc_oc=AdmqOql3F6VTpvh4EfZs9CdvMkw9uysnt4uTJMUl4g4fzqO0SRv_khl14rFAmk8DjII&_nc_zt=24&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=UMtqyhxOCIBjkJWWlXjeJw&oh=00_AffSIJUvgAAfFDbz8phoVWAux_EUaxFp75KJo8FHNHkHfQ&oe=68FD864D",
       text: "Macallimiintu waa khibrad leh, jawiga waxbarashaduna waa mid dhiirrigeliya hal-abuurka.",
     },
     {
       id: 3,
-      name: "Nimco Axmed",
-      img: "",
+      name: "Abdikarin Barre (Abdi haji)",
+      img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-1/558863599_25035994709357923_8681270044932937802_n.jpg?stp=c90.74.1679.1678a_dst-jpg_s200x200_tt6&_nc_cat=104&ccb=1-7&_nc_sid=1d2534&_nc_ohc=kQZapU3JxPIQ7kNvwHTLQXe&_nc_oc=Adl7NBtrQv5FW7t9nup4CfcoCcNBDepDgDeUsLBJj7DvUvMnZ4c28FM2o3NPOdXm58U&_nc_zt=24&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=KW5DGJh9tFlX17lxMwf_9g&oh=00_Afes9Gh4StcE7BTBwb9vT4DPx558xralL-U-zjPimSzuRg&oe=68FD9ADF",
       text: "Waxaan bartay xirfado IT ah oo aan hadda shaqo ku helay. Dhambaal waa goob lagu horumaro.",
     },
   ];

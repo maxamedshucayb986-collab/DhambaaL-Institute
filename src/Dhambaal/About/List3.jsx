@@ -12,9 +12,9 @@ export default function AboutHero3() {
     },
     {
       id: 2,
-      name: "",
+      name: "Fartun Hassan Osman  (kalsoon)",
       // role: "Head of IT Department",
-      img: "",
+      img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-1/465676783_1996895764144282_1430197644317868996_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=102&ccb=1-7&_nc_sid=1d2534&_nc_ohc=2waug4pVaQUQ7kNvwHUbpYS&_nc_oc=AdlQk0FuI7PuvqIXds1KIOiAWE2dOFioFNXpnO7ZFKgHRuQ4rtOUbJYJfBDS492xO3Y&_nc_zt=24&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=Me4xMkAvx-WQO_FFFCJw7Q&oh=00_AfcLhfj93XI7-x-YbblP3WvGzJ3b_MLfEDfJ_WqN9asDfQ&oe=68FD8513",
     },
     {
       id: 3,
@@ -24,9 +24,9 @@ export default function AboutHero3() {
     },
     {
       id: 4,
-      name: "",
+      name: "Suldan Abdiwahid Ali ",
       // role: "Student Affairs Manager",
-      img: "",
+      img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-1/499786046_1786232455611356_6393000264500671788_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=100&ccb=1-7&_nc_sid=1d2534&_nc_ohc=-mheGts_hg0Q7kNvwFcit2Q&_nc_oc=AdnnTvEeGTpw6I1v-AgfTVfPdAQf25TyploByphEKxDhoOi0qv_VB8SipQImBwUgodw&_nc_zt=24&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=NAKr9DIy4W6UgIntio6R2w&oh=00_AfdWexBjWOKxN_Q7G-sTDh6zWxUah9YfZfjLQzX3h03c5A&oe=68FDAF39",
     },
   ];
 
