@@ -19,7 +19,8 @@ export default function Contact() {
     setSubmitted(true);
     setFormData({ name: "", email: "", message: "" });
 
-    // Halkan waxaad ku dari kartaa backend API call
+
+    
   };
 
   return (

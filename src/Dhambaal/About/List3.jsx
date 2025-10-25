@@ -8,7 +8,7 @@ export default function AboutHero3() {
       id: 1,
       name: "Abdirahem_bin Kassim",
       // role: "Founder & CEO",
-      img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-6/561262143_832927436359454_6472442505058557016_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OebyFMHMfdYQ7kNvwFn1WUM&_nc_oc=AdkgLi1MTGHi2lzi5ScOywK5IxkbwK-dqPmG8glKAoY1AWvNfNNXExLVeOXR_wJvXu8&_nc_zt=23&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=7C8XssB6JfSTU0L1oME1rw&oh=00_AfdzCcWhMpUcIHeZzdWNAF95_X6pylT48kZFDRgAMMUYyg&oe=68FC0A69",
+      img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-6/561262143_832927436359454_6472442505058557016_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=yyzLrky1AyUQ7kNvwGqKEmJ&_nc_oc=AdnnJyJdGY92ruNxC3iobhFWXilmBPDV5FhiXD725mDIQaX_KfWalYuqYSx_8Jql9pQ&_nc_zt=23&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=NMbIeIdk7Zbop7TjsFe1AQ&oh=00_Afdu7h-P2P86EMTq_EIY1Rbv_te3hi3BmiDGF6BZHgMUMg&oe=6902DA29",
     },
     {
       id: 2,
@@ -20,11 +20,11 @@ export default function AboutHero3() {
       id: 3,
       name: "Omar Salad Nageye",
       // role: "Instructor",
-      img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-6/480004662_620603460559515_4543071724125650112_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=AqrChdqo2NIQ7kNvwGIuhnU&_nc_oc=AdlIcjowFyXwVIOAleVZNeFU68ue0KGjKgtgyqRa7IcfLkrIUFUoYIGrSVC3XxVs_KU&_nc_zt=23&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=8ptMxXaJApRRxMRcx6KfiQ&oh=00_AfeSTFcjo174BoCNYYAx4q3a1wp55cXz4pZMqP65JGiESQ&oe=68FC2437",
+      img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-1/470575654_580990971187431_470691080711099836_n.jpg?stp=c165.0.1765.1765a_dst-jpg_s200x200_tt6&_nc_cat=102&ccb=1-7&_nc_sid=1d2534&_nc_ohc=qes4cLNcGWcQ7kNvwE2k1UC&_nc_oc=AdlnH4nrQJrH5N5OoVunwjGBleqZobqKQrxSihxOEwYxktUZSTa1wuhpz50ipbYUkPg&_nc_zt=24&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=h0319sIvsDXcdj7IVlVD2w&oh=00_AfdyzhNyc1H6_bJFGMFmr7_xMhYvQX2k9NlzNXwUgRDU5A&oe=6902C977",
     },
     {
       id: 4,
-      name: "Suldan Abdiwahid Ali ",
+      name: "Suldan Abdi wahid Ali ",
       // role: "Student Affairs Manager",
       img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-1/499786046_1786232455611356_6393000264500671788_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=100&ccb=1-7&_nc_sid=1d2534&_nc_ohc=-mheGts_hg0Q7kNvwFcit2Q&_nc_oc=AdnnTvEeGTpw6I1v-AgfTVfPdAQf25TyploByphEKxDhoOi0qv_VB8SipQImBwUgodw&_nc_zt=24&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=NAKr9DIy4W6UgIntio6R2w&oh=00_AfdWexBjWOKxN_Q7G-sTDh6zWxUah9YfZfjLQzX3h03c5A&oe=68FDAF39",
     },

@@ -8,7 +8,7 @@ export default function AboutHero4() {
     {
       id: 1,
       name: "Abdirahman Kaahiye ",
-      img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-6/533479962_122254105250024387_5738558061551332473_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=gfuOze6iJTwQ7kNvwFpYvhS&_nc_oc=AdnasvFy2bqlJvy1rnfva14xB2OPQUnSh7aQmLnuptzH-Pn67YjNtzfk2ulJ7qIHc2Q&_nc_zt=23&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=Zhd5_iy3GpaLFCWpnZnlyA&oh=00_Afdgs8qOrhbz9D5YsOGM_9O-lTm87pAsALb6f73jwmA9Rg&oe=68FC6112",
+      img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-1/541818634_122256853382024387_4315962630133660139_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=105&ccb=1-7&_nc_sid=1d2534&_nc_ohc=EV3x0S7fhlYQ7kNvwE7z48b&_nc_oc=Adn5283Vbrc4Ot0UzTapLWbaiSADhtJw4z1HqJGctN9BH0yauyb94fLliMDFXKyfP2c&_nc_zt=24&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=c5Ed55ttdsJNUE0gbNE1PA&oh=00_AffTEQh-aznyBbtge23XFS2_o5OeZmvfkAuGnpsFxwYvYA&oe=6902F031",
       text: "Dhambaal Institute waxay iga dhigtay qof xirfad leh oo kalsooni badan. Tababaradooda waa kuwo tayo sare leh.",
     },
     {

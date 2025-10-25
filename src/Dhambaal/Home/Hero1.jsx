@@ -46,7 +46,7 @@ export default function Hero1() {
           transition={{ duration: 1 }}
         >
           <motion.img
-            src="https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-6/558763706_832977659687765_3797915818825958020_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Plva8ZeJ7rEQ7kNvwGia_pz&_nc_oc=AdnpipRLIWUOnOgHxUmhBFqqavV6i6FJiaDq-Fey9wy8UdlgS00_EFHuEKCPEe-xw6I&_nc_zt=23&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=P1vUndeMWo-4zh3bTj4CKA&oh=00_AfdMyhvwxUwCj-2SXIM-O4V3CZahhvgQqDXnng6n2cEgLw&oe=68FC4A05"
+            src="https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-6/558763706_832977659687765_3797915818825958020_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lspBDwDBH3IQ7kNvwFeqFZU&_nc_oc=AdnE3w1JfmgsOlK5r6PjIEeh6r3NhDmKCpHghcLh4VQV2YPaNXtQ_5hkqhEHludmZIs&_nc_zt=23&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=HvtR3MdpG8Mo7eBFdLwxQw&oh=00_Afdcj-voEeupwGeYLAnfPLbHupk-s9xefdFX4PIR0fzUTQ&oe=6902E185"
             alt="Dhambaal Institute Students"
             className="rounded-3xl shadow-2xl w-full md:w-4/5 object-cover"
             whileHover={{ scale: 1.05 }}
