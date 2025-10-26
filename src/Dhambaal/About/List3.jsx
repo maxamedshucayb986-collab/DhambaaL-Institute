@@ -14,7 +14,7 @@ export default function AboutHero3() {
       id: 2,
       name: "Fartun Hassan Osman  (kalsoon)",
       // role: "Head of IT Department",
-      img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-1/465676783_1996895764144282_1430197644317868996_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=102&ccb=1-7&_nc_sid=1d2534&_nc_ohc=2waug4pVaQUQ7kNvwHUbpYS&_nc_oc=AdlQk0FuI7PuvqIXds1KIOiAWE2dOFioFNXpnO7ZFKgHRuQ4rtOUbJYJfBDS492xO3Y&_nc_zt=24&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=Me4xMkAvx-WQO_FFFCJw7Q&oh=00_AfcLhfj93XI7-x-YbblP3WvGzJ3b_MLfEDfJ_WqN9asDfQ&oe=68FD8513",
+      img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-1/465676783_1996895764144282_1430197644317868996_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=102&ccb=1-7&_nc_sid=1d2534&_nc_ohc=AZq6GEImNIcQ7kNvwH8v9oI&_nc_oc=AdmcU98ewX85O7UvNO7dNwtp047mLnE7xC5uSjvD_TDwezSwTz6Ca8KsLO60h9KmZMU&_nc_zt=24&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=dgPqsok4v9Ce060cCdnfIQ&oh=00_AfeJ4zHinimn-cMHfBCzH2_skteZQTkecQs1sV5jJYsBkA&oe=6903AC13",
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ export default function AboutHero3() {
       id: 4,
       name: "Suldan Abdi wahid Ali ",
       // role: "Student Affairs Manager",
-      img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-1/499786046_1786232455611356_6393000264500671788_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=100&ccb=1-7&_nc_sid=1d2534&_nc_ohc=-mheGts_hg0Q7kNvwFcit2Q&_nc_oc=AdnnTvEeGTpw6I1v-AgfTVfPdAQf25TyploByphEKxDhoOi0qv_VB8SipQImBwUgodw&_nc_zt=24&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=NAKr9DIy4W6UgIntio6R2w&oh=00_AfdWexBjWOKxN_Q7G-sTDh6zWxUah9YfZfjLQzX3h03c5A&oe=68FDAF39",
+      img: "https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-1/499786046_1786232455611356_6393000264500671788_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=100&ccb=1-7&_nc_sid=1d2534&_nc_ohc=wSnrYCKYdsIQ7kNvwFcJS-M&_nc_oc=AdkCoaXMhXN-PRiNwOlaPXlj8_LmDAtM3c9ncj4usTgvhQYVSLT1T9Mrj0O_76Qu2EU&_nc_zt=24&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=2fwhEotu8QGrxajPHfs3Og&oh=00_AffYeiqyYr6gNKWnggXJlhvvPqLdXytEhLjppjxhjSxg1w&oe=69039DF9",
     },
   ];
 
