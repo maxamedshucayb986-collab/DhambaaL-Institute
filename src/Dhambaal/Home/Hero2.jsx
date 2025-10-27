@@ -24,6 +24,7 @@ export default function Hero2() {
       desc: "Dhambaal Institute waxay xiriir la leedahay jaamacado iyo hay’ado kale oo caalami ah si loo kordhiyo fursadaha ardayda.",
     },
   ];
+  
 
   return (
     <section className="py-20 bg-white text-center">
